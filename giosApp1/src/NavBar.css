@@ -1,0 +1,87 @@
+.navbar {
+	background-color: #161d61;
+	margin: 0;
+	display: flex;
+	grid-template-columns: auto auto;
+	padding-inline: calc(25% / 3);
+	align-items: center;
+	justify-content: space-between;
+}
+.chat_web {
+	width: 135.5px;
+	height: 40px;
+
+	font-family: "Roboto";
+	font-style: normal;
+	font-weight: 400;
+	font-size: 32px;
+	line-height: 125%;
+	/* identical to box height, or 40px */
+
+	display: flex;
+	align-items: center;
+	text-align: center;
+
+	color: #ffffff;
+
+	/* Inside auto layout */
+
+	flex: none;
+	order: 0;
+	flex-grow: 0;
+}
+.navigation_buttons {
+	display: flex;
+	/* justify-self: right;
+	justify-self: end; */
+	margin: 24px;
+}
+.navigation {
+	padding: 10px;
+	display: flex;
+}
+.button {
+	/* width: 65px; */
+	/* height: 24px; */
+
+	font-family: "Roboto";
+	font-style: normal;
+	font-weight: 500;
+	font-size: 16px;
+	line-height: 150%;
+	/* identical to box height, or 24px */
+	margin-left: 24px;
+	display: flex;
+	align-items: center;
+
+	color: #ffffff;
+
+	/* Inside auto layout */
+
+	flex: none;
+	order: 0;
+	flex-grow: 0;
+
+	cursor: pointer;
+}
+.button:hover {
+	color: lightblue;
+}
+.pricing {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	padding: 16px 18px;
+	gap: 10px;
+	margin-left: 34px;
+
+	background: #ffffff;
+	border-radius: 25px;
+
+	/* Inside auto layout */
+
+	flex: none;
+	order: 1;
+	flex-grow: 0;
+	cursor: pointer;
+}
